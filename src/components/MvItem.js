@@ -75,7 +75,7 @@ function MvItem() {
     <>
       <h1>영화상세</h1>
       <form>
-        <button className="homeBt"><Link to='/'>홈으로</Link></button>
+        <button className="homeBt"><Link to='/'>Home</Link></button>
       </form>
       <div className='mvInfo'>
         {(movieCd === 'null') ?

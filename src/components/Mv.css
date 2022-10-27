@@ -97,11 +97,9 @@ button {
   border: none;
   border-radius: 20px;
   box-shadow: #6D5C3E 2px 3px;
-}
-
-.btsubmit {
-  background-color: #6D5C3E;
-  color: #C6CB92;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #6D5C3E;
 }
 
 button:active {
@@ -109,6 +107,10 @@ button:active {
   color: #C6CB92;
   box-shadow: none;
   transition: 0.3s;
+}
+
+button::after {
+  color: #202500;
 }
 
 .movieNm {
@@ -167,7 +169,7 @@ button:active {
   align-items: center;
   width: 20vw;
   font-weight: bolder;
-  background-color: #879922;
+  background-color: #6D5C3E;
 }
 
 .vspan {
@@ -182,5 +184,5 @@ button:active {
   align-items: center;
   padding-left: 20px;
   width: 40vw;
-  background-color: #C6CB92;
+  background-color: #EDE1CF;
 }
